@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b1120;
+  color: #e2e8f0;
+  /* grid statis halus — tanpa animasi */
+  background-image:
+    linear-gradient(rgba(30, 41, 59, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.35) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ponytail: !important menimpa CSS komponen React Bits (urutan import tak
+   bisa diandalkan); hapus bila posisi diatur lewat wrapper sendiri. */
+.pill-nav-container.pill-nav-container {
+  position: fixed;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .pill-nav-container.pill-nav-container {
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+}
+
+.hero-lanyard .lanyard-wrapper {
+  height: 100%;
+}
