@@ -14,6 +14,15 @@ body {
   background-size: 40px 40px;
 }
 
+/* grid statis yang sama untuk section berlatar solid */
+.grid-bg {
+  background-color: #0b1120;
+  background-image:
+    linear-gradient(rgba(30, 41, 59, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.35) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
 /* ponytail: !important menimpa CSS komponen React Bits (urutan import tak
    bisa diandalkan); hapus bila posisi diatur lewat wrapper sendiri. */
 .pill-nav-container.pill-nav-container {

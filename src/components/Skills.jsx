@@ -1,57 +1,9 @@
 import SectionTitle from './SectionTitle';
 import { profile } from '../data/profile';
-import {
-  SiHtml5,
-  SiCss,
-  SiJavascript,
-  SiReact,
-  SiTailwindcss,
-  SiBootstrap,
-  SiLaravel,
-  SiMysql,
-  SiSupabase,
-  SiGit,
-  SiGithub,
-  SiVite,
-  SiFigma,
-  SiWordpress
-} from 'react-icons/si';
-import {
-  FiServer,
-  FiKey,
-  FiEdit3,
-  FiSmartphone,
-  FiPenTool,
-  FiTrendingUp,
-  FiCode
-} from 'react-icons/fi';
-
-// Ikon per skill; fallback FiCode untuk nama tak dikenal.
-const ICONS = {
-  HTML: SiHtml5,
-  CSS: SiCss,
-  JavaScript: SiJavascript,
-  'React.js': SiReact,
-  'Tailwind CSS': SiTailwindcss,
-  Bootstrap: SiBootstrap,
-  Laravel: SiLaravel,
-  MySQL: SiMysql,
-  Supabase: SiSupabase,
-  'REST API': FiServer,
-  JWT: FiKey,
-  CRUD: FiEdit3,
-  Git: SiGit,
-  GitHub: SiGithub,
-  Vite: SiVite,
-  Figma: SiFigma,
-  'Responsive Web Design': FiSmartphone,
-  'UI/UX Design': FiPenTool,
-  WordPress: SiWordpress,
-  SEO: FiTrendingUp
-};
+import { techIcons as ICONS, fallbackIcon } from './techIcons';
 
 function SkillChip({ label }) {
-  const Icon = ICONS[label] ?? FiCode;
+  const Icon = ICONS[label] ?? fallbackIcon;
   return (
     <span className="inline-flex cursor-default items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition-colors duration-200 hover:border-cyan-400/50 hover:bg-white/10">
       <Icon className="text-base text-cyan-400" aria-hidden="true" />
@@ -80,17 +32,21 @@ function GroupCard({ grup, items, nomor }) {
 
 export default function Skills() {
   return (
-    <section id="skill" className="mx-auto max-w-5xl px-4 py-24">
-      <SectionTitle nomor="02" judul="Skill" />
-      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {profile.skills.map((g, i) => (
-          <GroupCard
-            key={g.grup}
-            grup={g.grup}
-            items={g.items}
-            nomor={String(i + 1).padStart(2, '0')}
-          />
-        ))}
+    <section
+      className="grid-bg relative z-10 overflow-hidden rounded-t-[2rem] border-t border-white/10 shadow-[0_-24px_48px_rgba(0,0,0,0.45)]"
+    >
+      <div className="relative mx-auto max-w-5xl px-4 pt-24 pb-36 md:pb-48">
+        <SectionTitle nomor="02" judul="Skill" />
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {profile.skills.map((g, i) => (
+            <GroupCard
+              key={g.grup}
+              grup={g.grup}
+              items={g.items}
+              nomor={String(i + 1).padStart(2, '0')}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

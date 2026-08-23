@@ -4,7 +4,7 @@ import { profile } from '../data/profile';
 
 export default function About() {
   return (
-    <section id="tentang" className="mx-auto max-w-5xl px-4 py-24">
+    <section className="mx-auto max-w-5xl px-4 py-24">
       <SectionTitle nomor="01" judul="Tentang" />
       <div className="mt-8 flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-2xl space-y-4 text-slate-300 leading-relaxed">
