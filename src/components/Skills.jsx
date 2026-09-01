@@ -33,7 +33,7 @@ function GroupCard({ grup, items, nomor }) {
 export default function Skills() {
   return (
     <section
-      className="grid-bg relative z-10 overflow-hidden rounded-t-[2rem] border-t border-white/10 shadow-[0_-24px_48px_rgba(0,0,0,0.45)]"
+      className="mt-12 grid-bg relative z-10 overflow-hidden rounded-t-[2rem] border-t border-white/10 shadow-[0_-24px_48px_rgba(0,0,0,0.45)] md:mt-16"
     >
       <div className="relative mx-auto max-w-5xl px-4 pt-24 pb-36 md:pb-48">
         <SectionTitle nomor="02" judul="Skill" />
