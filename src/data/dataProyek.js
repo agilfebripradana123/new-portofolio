@@ -4,16 +4,17 @@
 export const dataProyek = [
   {
     kategori: "Website",
-    judul: "Website Desa",
+    judul: "Sistem Informasi Manajemen SIMITRA",
     deskripsi:
-      "Website desa dengan sistem informasi dan pengelolaan data penduduk.",
-    tech: ["Laravel", "Bootstrap", "JavaScript", "XAMPP"],
+      "Layanan sistem informasi manajemen untuk mendukung kebutuhan sekolah. (On Progress)",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
     gambar: "",
-    demo: "https://github.com/agilfebripradana123/portofolio",
-    repo: "https://github.com/agilfebripradana123/portofolio",
-    borderColor: "#22D3EE",
-    gradient: "linear-gradient(145deg, #0E7490, #0B1120)",
+    demo: "",
+    repo: "",
+    borderColor: "#38BDF8",
+    gradient: "linear-gradient(185deg, #0369A1, #0B1120)",
   },
+
   {
     kategori: "Website",
     judul: "Website Booking Event",
@@ -52,25 +53,27 @@ export const dataProyek = [
   },
   {
     kategori: "Website",
-    judul: "Website Streaming Anime",
+    judul: "Website UMKM ",
     deskripsi:
-      "Website streaming anime statis dengan tampilan modern dan responsif.",
-    tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    gambar: "",
-    demo: "",
-    repo: "",
-    borderColor: "#F472B6",
-    gradient: "linear-gradient(185deg, #BE185D, #0B1120)",
-  },
-  {
-    kategori: "Website",
-    judul: "Website UMKM",
-    deskripsi: "Website UMKM untuk menampilkan menu dan memudahkan pemesanan.",
+      "Website UMKM Kedai Mama Kyrel untuk menampilkan menu dan memudahkan pemesanan.",
     tech: ["React", "Tailwind CSS", "JavaScript", "Vite"],
     gambar: "",
     demo: "",
     repo: "",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(195deg, #B45309, #0B1120)",
+  },
+
+  {
+    kategori: "Website",
+    judul: "Website Desa - KKN",
+    deskripsi:
+      "Website informasi Dusun Dowangan untuk mendukung penyampaian informasi dan pengelolaan data desa.",
+    tech: ["Laravel", "Bootstrap", "JavaScript", "XAMPP"],
+    gambar: "",
+    demo: "",
+    repo: "",
+    borderColor: "#22D3EE",
+    gradient: "linear-gradient(145deg, #0E7490, #0B1120)",
   },
 ];

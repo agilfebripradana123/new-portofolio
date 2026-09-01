@@ -11,10 +11,12 @@ export const profile = {
     'Saya dikenal sebagai pribadi yang disiplin, bertanggung jawab, cepat beradaptasi, serta memiliki semangat belajar yang tinggi. Saya senang menghadapi tantangan baru, mampu bekerja secara individu maupun dalam tim, dan selalu berusaha memberikan hasil yang berkualitas dalam setiap pekerjaan yang saya kerjakan.'
   ],
   foto: '/foto.webp',
-  email: 'email@anda.com',
+  email: 'agilfebripradana123@gmail.com',
   sosial: [
-    { nama: 'GitHub', url: 'https://github.com/username' },
-    { nama: 'LinkedIn', url: 'https://linkedin.com/in/username' }
+    { nama: 'GitHub', url: 'https://github.com/agilfebripradana123' },
+    { nama: 'LinkedIn', url: 'https://www.linkedin.com/in/agil-febri-pradana/' },
+    { nama: 'Instagram', url: 'https://instagram.com/agilfebri' },
+    { nama: 'TikTok', url: 'https://tiktok.com/@agilfebri' }
   ],
   skills: [
     { grup: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Tailwind CSS', 'Bootstrap'] },

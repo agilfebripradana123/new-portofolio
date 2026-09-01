@@ -113,7 +113,7 @@ export default function Hero() {
         </div>
 
         {/* kanan: kartu 3D interaktif */}
-        <div className="hero-lanyard h-[480px] sm:h-[560px] md:h-[80vh] lg:h-[85vh]">
+        <div className="hero-lanyard h-[450px] w-full sm:h-[500px] md:h-[80vh] lg:h-[85vh]">
           <Suspense fallback={null}>
             <Lanyard
               position={[0, 0, 13]}

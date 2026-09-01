@@ -4,7 +4,7 @@ import { profile } from '../data/profile';
 
 export default function About() {
   return (
-    <section className="mx-auto max-w-5xl px-4 py-24">
+    <section className="mx-auto max-w-5xl px-4 py-24 mb-16">
       <SectionTitle nomor="01" judul="Tentang" />
       <div className="mt-8 flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-2xl space-y-4 text-slate-300 leading-relaxed">
@@ -14,7 +14,7 @@ export default function About() {
         </div>
 
         {/* kartu profil 3D — foto di public/foto.webp */}
-        <div className="w-full max-w-[300px] shrink-0">
+        <div className="w-full max-w-[180px] md:max-w-[240px] shrink-0">
           <ProfileCard
             avatarUrl={profile.foto || undefined}
             showUserInfo={false}
