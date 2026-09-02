@@ -7,7 +7,7 @@ export const dataProyek = [
     tech: ["React", "TypeScript", "Tailwind CSS"],
     gambar: "/proyek/1.webp",
     demo: "https://pkbm.kusalamitra.or.id/",
-    repo: "https://github.com/agilfebripradana123/schoolcms-laravel",
+    repo: "https://github.com/agilfebripradana123/schoolcms-react",
     borderColor: "#38BDF8",
     gradient: "linear-gradient(185deg, #0369A1, #0B1120)",
   },
