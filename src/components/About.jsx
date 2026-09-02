@@ -1,6 +1,6 @@
-import SectionTitle from './SectionTitle';
-import ProfileCard from './react-bits/ProfileCard';
-import { profile } from '../data/profile';
+import SectionTitle from "./SectionTitle";
+import ProfileCard from "./react-bits/ProfileCard";
+import { profile } from "../data/profile";
 
 export default function About() {
   return (
@@ -18,7 +18,7 @@ export default function About() {
           />
         </div>
 
-        <div className="lg:order-1 max-w-2xl space-y-4 text-slate-300 leading-relaxed">
+        <div className="lg:order-1 max-w-2xl space-y-4 text-slate-300 leading-relaxed mb-8">
           {profile.bio.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
