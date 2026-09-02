@@ -35,7 +35,7 @@ export default function Skills() {
     <section
       className="mt-12 grid-bg relative z-10 overflow-hidden rounded-t-[2rem] border-t border-white/10 shadow-[0_-24px_48px_rgba(0,0,0,0.45)] md:mt-16"
     >
-      <div className="relative mx-auto max-w-5xl px-4 pt-24 pb-36 md:pb-48">
+      <div className="relative mx-auto max-w-5xl px-4 pt-12 md:pt-24 pb-36 md:pb-48">
         <SectionTitle nomor="02" judul="Skill" />
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {profile.skills.map((g, i) => (

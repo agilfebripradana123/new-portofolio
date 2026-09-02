@@ -99,7 +99,7 @@ export default function Projects() {
       id="proyek"
       className="grid-bg rounded-t-[2rem] border-t border-white/10"
     >
-      <div className="mx-auto max-w-5xl px-4 py-24">
+      <div className="mx-auto max-w-5xl px-4 pt-12 md:pt-24 pb-36 md:pb-48">
         <SectionTitle nomor="03" judul="Proyek" />
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {dataProyek.map(p => (

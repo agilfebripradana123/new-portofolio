@@ -4,7 +4,7 @@ import { profile } from "../data/profile";
 
 export default function About() {
   return (
-    <section className="mx-auto max-w-5xl px-4 py-12 md:py-24 mb-16">
+    <section className="mx-auto max-w-5xl px-4 pt-12 md:pt-24 pb-36 md:pb-48">
       <SectionTitle nomor="01" judul="Tentang" />
       <div className="mt-8 flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
         {/* kartu profil 3D — foto di public/foto.webp */}
