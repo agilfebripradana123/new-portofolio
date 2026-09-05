@@ -2,13 +2,14 @@
 export const profile = {
   nama: "Agil Febri Pradana",
   handle: "agilfebri",
-  tagline: "Web Developer & Graphic Designer",
+  tagline: "Junior Full Stack Developer & Graphic Designer",
   kutipan: "Lebih baik gagal daripada tidak mencoba sama sekali.",
   deskripsi:
-    "Saya seorang Web Developer dan Graphic Designer yang memiliki ketertarikan dalam mengembangkan website modern, responsif, dan fungsional, serta menciptakan desain visual yang menarik. Saya senang mempelajari teknologi baru dan menggabungkan kemampuan teknis dengan kreativitas untuk menghasilkan solusi digital yang efektif dan memiliki nilai visual.",
+    "Saya seorang Junior Full Stack Developer dan lulusan S1 Informatika yang berfokus pada pengembangan aplikasi web modern, responsif, dan fungsional. Saya terbiasa menggunakan React, JavaScript, TypeScript, Laravel, dan MySQL dalam membangun aplikasi dari sisi frontend hingga backend. Saya juga memiliki pengalaman dalam UI/UX dan desain grafis, sehingga dapat menggabungkan kemampuan teknis dan visual untuk menghasilkan aplikasi yang tidak hanya berfungsi dengan baik, tetapi juga memiliki pengalaman pengguna yang baik.",
   bio: [
-    "Halo, perkenalkan saya Agil Febri Pradana, S.Kom., lulusan S1 Informatika, Fakultas Sains dan Teknologi, Universitas PGRI Yogyakarta. Selama menempuh pendidikan, saya mengembangkan kemampuan dalam bidang pengembangan web, desain grafis, dan ilustrasi digital melalui berbagai proyek akademik maupun freelance.",
-    "Saya dikenal sebagai pribadi yang disiplin, bertanggung jawab, cepat beradaptasi, serta memiliki semangat belajar yang tinggi. Saya senang menghadapi tantangan baru, mampu bekerja secara individu maupun dalam tim, dan selalu berusaha memberikan hasil yang berkualitas dalam setiap pekerjaan yang saya kerjakan.",
+    "Halo, saya Agil Febri Pradana, S.Kom., lulusan S1 Informatika dari Universitas PGRI Yogyakarta.",
+    "Saya berfokus pada pengembangan aplikasi web menggunakan React, JavaScript, TypeScript, Laravel, dan MySQL. Selama kuliah maupun melalui proyek pribadi dan freelance, saya telah mengembangkan berbagai aplikasi seperti sistem informasi manajemen, clinic management system, event booking, hingga website untuk UMKM dan desa.",
+    "Selain web development, saya memiliki ketertarikan pada UI/UX dan desain grafis. Kombinasi kemampuan teknis dan visual tersebut membantu saya membangun aplikasi yang fungsional sekaligus memiliki tampilan dan pengalaman pengguna yang baik.",
   ],
   foto: "/foto.webp",
   email: "agilfebripradana123@gmail.com",
@@ -33,7 +34,7 @@ export const profile = {
         "Bootstrap",
       ],
     },
-    { grup: "Backend", items: ["Laravel"] },
+    { grup: "Backend", items: ["Laravel","PHP"] },
     { grup: "Database", items: ["MySQL", "Supabase"] },
     { grup: "API & Authentication", items: ["REST API", "JWT", "CRUD"] },
     { grup: "Tools & Development", items: ["Git", "GitHub", "Vite"] },
